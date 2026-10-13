@@ -17,7 +17,11 @@ def test_strips_surrounding_whitespace():
 
 def test_color_is_optional():
     car = CarInput(make="Toyota", model="Corolla", year=2024)
+<<<<<<< HEAD
     assert car.color == "Blue"
+=======
+    assert car.color == ""
+>>>>>>> e6bd11446edc4d3838699a503c0c9536a2da6995
 
 
 @pytest.mark.parametrize("year", [1886, 2100])
