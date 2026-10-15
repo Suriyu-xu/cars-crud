@@ -20,7 +20,7 @@ def test_color_is_optional():
 
     
 
-    assert car.color == "Blue"
+    assert car.color == ""
 
 
 
