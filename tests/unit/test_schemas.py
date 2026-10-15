@@ -19,6 +19,9 @@ def test_color_is_optional():
     car = CarInput(make="Toyota", model="Corolla", year=2024)
 
 
+    
+
+
     assert car.color == ""
 
 
